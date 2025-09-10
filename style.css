@@ -1,0 +1,85 @@
+.a {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: aqua;
+  padding: 20px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 20px white solid;
+  box-shadow: 0px 0px 10px black
+}
+
+.a > div {
+  margin: 10px;
+  padding-bottom: 50px;
+  padding-top: 50px
+}
+
+.b {
+  grid-column: span 4;
+  background-color: azure;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 10px;
+  border: 2px black solid;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c {
+  grid-row: span 5;
+  box-shadow: 0px 0px 10px black;
+  background-color: azure;
+  border-radius: 10px;
+  border: 2px black solid;
+}
+
+.d {
+  grid-column: span 3;
+  box-shadow: 0px 0px 10px black;
+  background-color: azure;
+  border-radius: 10px;
+  border: 2px black solid;
+}
+
+.e {
+  grid-row: span 3;
+  grid-column: span 3;
+  box-shadow: 0px 0px 10px black;
+  background-color: azure;
+  border-radius: 10px;
+  border: 2px black solid;
+}
+
+.f {
+  grid-column: span 3;
+  box-shadow: 0px 0px 10px black;
+  background-color: azure;
+  border-radius: 10px;
+  border: 2px black solid;
+}
+
+p {
+  color: white;
+  text-align: center;
+  letter-spacing: 30px;
+  font-size: 150%;
+  font-weight: bolder;
+  background-color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black; 
+  border-left: 10px black solid;
+  border-right: 10px black solid;
+}
